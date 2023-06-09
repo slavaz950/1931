@@ -13,22 +13,28 @@ class Program
 
         int start = ReadInt ("Введите число А: "); 
         int end =   ReadInt("Введите число В (A<B):  ");
+
+        if (end < start)
+        {
+            Console.Write("Число В должно быть больше числа А. Попробуйте снова.");
+            return;
+        }
       
         Console.WriteLine("+---------+--------------------+");    
         Console.WriteLine("|  Число  |  Кол-во делителей  |");
         Console.WriteLine("+---------+--------------------+");
         
-        uint divider = 0;
+       // uint divider = 0;
         for (int x = start; x<= end; x += 1){
-            for(int i = 1;  i<=x; i++)
+            uint divider = 0;
+            for(int i = 1; i<=x; i++)
             {
                 if(x%i == 0)
-                divider++;
+                divider++; // Находим количество делителей
             }
-            //uint divider = 0;   // Находим делитель
-
+           
             double y2 = Math.Cos(x);
-            Console.WriteLine("| {0,7:F3} | {1,18:F4} |",x,divider);     
+            Console.WriteLine("| {0,7:F0} | {1,18:F0} |",x,divider);     
         }
         Console.WriteLine("+---------+--------------------+");
 
