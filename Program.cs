@@ -23,7 +23,7 @@ class Program
         for (double x = start; x<= end; x += step){
             double y1 = Math.Sin(x);
             double y2 = Math.Cos(x);
-            Console.WriteLine("x={0} sin(x)={1} cos(x)={2}" );
+            Console.WriteLine("x={0} sin(x)={1} cos(x)={2}");  //,x,y1,y2
         }
 
     }
