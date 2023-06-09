@@ -20,14 +20,18 @@ class Program
         double end =   ReadDouble("Введите конец промежутка :  ");
         double step = ReadDouble("Введите шаг               :  ");
 
+        Console.WriteLine("+---------+--------------+--------------+");    
+        Console.WriteLine("|    x    |    sin(x)    |    cos(x)    |");
+        Console.WriteLine("+---------+--------------+--------------+");
+        //Console.WriteLine();
+       // Console.WriteLine();
+        //Console.WriteLine();
         for (double x = start; x<= end; x += step){
             double y1 = Math.Sin(x);
             double y2 = Math.Cos(x);
-            Console.WriteLine("x={0} sin(x)={1} cos(x)={2}",x,y1,y2);
-            //(x + " " + y1 + " " + y2);
-            
-           // ("x={0} sin(x)={1} cos(x)={2}");  //,x,y1,y2
+            Console.WriteLine("| {0,7:F3} | {1,12:F4} | {2,12:F4} |",x,y1,y2);     
         }
+        Console.WriteLine("+---------+--------------+--------------+");
 
     }
 }
