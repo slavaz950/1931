@@ -1,0 +1,15 @@
+D:\1931\bin\Debug\net6.0\1931.exe
+D:\1931\bin\Debug\net6.0\1931.deps.json
+D:\1931\bin\Debug\net6.0\1931.runtimeconfig.json
+D:\1931\bin\Debug\net6.0\1931.dll
+D:\1931\bin\Debug\net6.0\1931.pdb
+D:\1931\obj\Debug\net6.0\1931.csproj.AssemblyReference.cache
+D:\1931\obj\Debug\net6.0\1931.GeneratedMSBuildEditorConfig.editorconfig
+D:\1931\obj\Debug\net6.0\1931.AssemblyInfoInputs.cache
+D:\1931\obj\Debug\net6.0\1931.AssemblyInfo.cs
+D:\1931\obj\Debug\net6.0\1931.csproj.CoreCompileInputs.cache
+D:\1931\obj\Debug\net6.0\1931.dll
+D:\1931\obj\Debug\net6.0\refint\1931.dll
+D:\1931\obj\Debug\net6.0\1931.pdb
+D:\1931\obj\Debug\net6.0\1931.genruntimeconfig.cache
+D:\1931\obj\Debug\net6.0\ref\1931.dll
