@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1931\\1931.csproj",
+      "projectUniqueName": "D:\\isit\\1931\\1931.csproj",
       "projectName": "1931",
-      "projectPath": "D:\\1931\\1931.csproj",
+      "projectPath": "D:\\isit\\1931\\1931.csproj",
       "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
-      "outputPath": "D:\\1931\\obj\\",
+      "outputPath": "D:\\isit\\1931\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
